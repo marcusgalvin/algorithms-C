@@ -61,22 +61,22 @@ int main(void)
     }
   }
 
-  // size_t i = 0;
-  // for (; i < init_size; i++)
-  // {
+  size_t i = 0;
+  for (; i < init_size; i++)
+  {
 
-  //   int test = ptr[i];
+    //   int test = ptr[i];
 
-  //   printf("%c\n", test);
+    //   printf("%c\n", test);
 
-  //   // int lengths = strlen(test);
-  //   // printf("%d\n", lengths);
+    //   // int lengths = strlen(test);
+    //   // printf("%d\n", lengths);
 
-  // }
+    // }
 
-  // size_t length = strlen(string);
-  // size_t i = 0;
-  // for (; i < length; i++) {
-  //     printf("%c\n", string[i]);    /* Print each character of the string. */
-  // }
-}
+    // size_t length = strlen(string);
+    // size_t i = 0;
+    // for (; i < length; i++) {
+    //     printf("%c\n", string[i]);    /* Print each character of the string. */
+    // }
+  }
