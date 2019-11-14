@@ -29,14 +29,7 @@ int main()
   int n = 1;
   int count = 0;
 
-  while(n<=num)
+  while (n <= num)
   {
-
   }
-
-
-
-
-
-
 }
