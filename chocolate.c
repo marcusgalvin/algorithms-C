@@ -23,7 +23,7 @@ int main(void)
 
   int totalWeight = bigWeight + smallWeight;
   // printf("%i\n", totalWeight);
-
+  int test = 0;
   int total = big % kilos;
   printf("%i remainder over the kilo amount\n", total);
 
