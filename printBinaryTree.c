@@ -70,14 +70,14 @@ void displayTreeOnEnter(BNODE *aNode)
     // printf("%i ,", trav->low->value);
     // printf("%i ,", trav->high->value);
 
-    //if the traveler looks to the less than side and its not NULL, run the fucn and print low values
+    //if the traveler looks to the less than side and its not NULL, repeat fucn and print low values
     if (trav->low != NULL)
     {
       // printf("%i\n", trav->low->value);
       displayTreeOnEnter(trav->low);
     }
     //once there are no more children on the less than (low) side of the tree,
-    //if the trav looks to the greater than side and its not NULL, run the func and print high values next
+    //if the trav looks to the greater than side and its not NULL, repeat func and print high values next
     if (trav->high != NULL)
     {
       displayTreeOnEnter(trav->high);
