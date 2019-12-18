@@ -127,7 +127,7 @@ BNODE *hasValue(int val)
   }
 }
 
-//freeAllNodes
+//freeAllNodes from memory - no leaks
 void freeAllNodes(BNODE *node)
 {
   if (rootNode == NULL)
