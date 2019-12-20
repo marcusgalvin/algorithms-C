@@ -151,6 +151,7 @@ void freeAllNodes(BNODE *node)
   }
 }
 
+//call funcs in main
 int main(void)
 {
   int stream[] = {5, 8, 9, 4, 6, 7, 2, 3, 1, 10};
